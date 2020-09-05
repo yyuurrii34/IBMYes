@@ -51,12 +51,12 @@ wget --no-check-certificate -O install.sh https://raw.githubusercontent.com/CCCh
 ```
 
 失败的话用这个安装代码
-cli
-
-```ibmcloud login -a 'https://cloud.ibm.com' -r 'us-south'
+```cli
+ibmcloud login -a 'https://cloud.ibm.com' -r 'us-south'
 ibmcloud target --cf-api 'https://api.us-south.cf.cloud.ibm.com'
 ```
-```wget --no-check-certificate -O install.sh https://raw.githubusercontent.com/Ericssuny/IBMYes/master/install.sh && chmod +x install.sh  && ./install.sh
+```
+wget --no-check-certificate -O install.sh https://raw.githubusercontent.com/Ericssuny/IBMYes/master/install.sh && chmod +x install.sh  && ./install.sh
 ```
 注意事项：应用名称和内存填写注册时候项目名称和大小
 
